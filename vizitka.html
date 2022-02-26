@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPage</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" href="styles/assets/images/headicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <nav class="header_nav">
+        <ul class="header_nav_list">
+            <li class="header_nav_heading">
+                <a class="header_nav_link" id="main_page" href="#">Главная</a>
+            </li>
+            <li class="header_nav_heading">
+                <a class="header_nav_link" href="#">Обо мне</a>
+            </li>
+            <li class="header_nav_heading">
+                <a class="header_nav_link" href="#">Услуги</a>
+            </li>
+            <li class="header_nav_heading">
+                <a class="header_nav_link" href="#portf">Портфолио</a>
+            </li>
+            <li class="header_nav_heading" id="contact_button">
+                <a class="header_nav_link">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <hr id="hr">
+</header>
+
+<main class="main">
+    <section class="banner">
+        <h2 id="name">Анна <br> Стешкина</h2>
+        <h3 id="prof">frontend разработчик</h3>
+    </section>
+    <section class="about_me">
+        <h2 id="about_heading">Обо мне</h2>
+        <p class="paragraph">Меня зовут Анна. Я frontend разработчик.</p>
+        <p class="paragraph">Учусь на курсе “Frontend разработчик” в школе <br> IT профессий “ITGIRLS”.</p>
+        <p class="paragraph">Занимаюсь разработкой сайтов, веб-страниц, <br> лендингов, отдельных графических <br> веб-элементов для сайтов и пр.</p>
+    </section>
+    <section class="services">
+        <h2 id="services_heading">Услуги</h2>
+        <div class="service_cards">
+            <div class="card">
+                <h3 class="heading_card">Разработка с нуля</h3>
+                <p class="text_card">Разработка с нуля <br> от  лендингов <br> до многостраничных сайтов <br> крупных проектов.</p>
+            </div>
+            <div class="card">
+                <h3 class="heading_card">Верстка по макету</h3>
+                <p class="text_card">Верстка по вашим макетам. <br> Этот вариант подходит тем, <br> кто уже работает с <br> дизайнером.</p>
+            </div>
+            <div class="card">
+                <h3 class="heading_card">Редизайн</h3>
+                <p class="text_card"> Переделаю морально <br> устаревшие сайты, <br> требующие расширения <br> функционала. </p>
+            </div>
+        </div>
+        <div id="place_service_button">
+        <button id="service_button">Все услуги</button>
+        </div>
+    </section>
+    <section class="portfolio" id="portf">
+        <h2 id="portfolio_heading">Портфолио</h2>
+        <div class="example_portfolio">
+            <img src="styles/assets/images/fashion.png" alt="Online fashion store - Homepage">
+            <span class="signatures">Online fashion store - <br> Homepage</span>
+        </div>
+        <div class="example_portfolio">
+            <img src="styles/assets/images/reebok.png" alt="Reebok Store - Concept">
+            <span class="signatures">Reebok Store - <br> Concept</span>
+        </div>
+        <div class="example_portfolio">
+            <img src="styles/assets/images/braun.png" alt="Braun Landing Page - Concept">
+            <span class="signatures">Braun Landing Page - <br> Concept</span>
+        </div>
+    <div id="place_portfolio_button">
+    <button id="portfolio_button">Больше работ</button>
+    </div>
+    </section>
+</main>
+<footer class="footer">
+    <h1 id="contact_heading">Контакты</h1>
+    <span id="welcome">Хотите узнать больше? <br> Добро пожаловать!</span>
+    <div id="place_footer_button">
+    <button id="footer_button">Напишите мне</button>
+    </div>
+    <div class="social">
+        <ul class="social_icon">
+            <li>
+                <a class="icons" href="" target="_blank">
+                    <img src="styles/assets/images/linkedln.svg" alt="Linkedln">
+                </a> 
+            </li>
+            <li>
+                <a class="icons" href="" target="_blank">
+                    <img src="styles/assets/images/inst.svg" alt="Instagram">
+                </a> 
+            </li>
+            <li>
+                <a class="icons" href="" target="_blank">
+                    <img src="styles/assets/images/behance.svg" alt="Behance">
+                </a> 
+            </li>
+            <li>
+                <a class="icons" href="" target="_blank">
+                    <img src="styles/assets/images/dribble.svg" alt="Dribble">
+                </a> 
+            </li>
+        </ul>
+    </div>
+    <span id="social_network">Like me on <br> LinkedIn, Instagram, Behance, <br> Dribble</span>
+</footer>
+</body>
+
+</html>

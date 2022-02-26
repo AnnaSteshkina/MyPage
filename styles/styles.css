@@ -1,0 +1,366 @@
+body{
+    background-color: #FFFFFF;
+}
+
+.header_nav{
+    height: 88px;
+    margin: 0;
+
+}
+
+.header_nav_list{
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    padding-left: 0;
+    margin-left: 250px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    list-style-type: none;
+}
+
+.header_nav_heading{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+
+.header_nav_link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #828282;
+}
+
+#main_page{
+color: #070707;
+}
+
+#contact_button{
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 37px;
+    padding: 7px;
+    margin-top: 26px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#contact_button:hover{
+    color: #FFFFFF;
+
+    background-color: #000000;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#hr{
+    width: 944px;
+    margin-left: 246px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color:#828282;
+}
+
+.banner{
+    display: flex;
+    flex-flow:column wrap;
+    margin-top: 75px;
+    margin-left: 250px;
+    margin-bottom: 75px;
+    width: 939px;
+    height: 530px;
+
+    background-color: #090909;
+}
+
+#name{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 125px;
+    margin-top: 113px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+#prof{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 108px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.about_me{
+    height: 506px;
+
+    background-color: rgba(252, 247, 230, 0.63);
+}
+
+#about_heading{
+    padding-top: 80px;
+    margin: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color:#070707;
+}
+
+.paragraph{
+    padding: 30px;
+    margin: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.services{
+    height: 610px;
+}
+
+#services_heading{
+    padding-top: 80px;
+    margin: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color: #070707;
+}
+
+.service_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 69px;
+}
+
+.card{
+    width: 304px;
+    height: 282px;
+
+    background: rgba(252, 247, 230, 0.63);
+    border: 1px solid #F6F6F6;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.heading_card{
+    margin: 0;
+    margin-top: 20px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.text_card{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    font-feature-settings: 'kern' off;
+
+    color: #000000;
+}
+
+.portfolio{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    height: 2292px;
+
+    background-color: rgba(252, 247, 230, 0.63);
+}
+
+#portfolio_heading{
+    padding-top: 80px;
+    margin: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color: #070707;
+}
+
+.example_portfolio{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    padding: 50px;
+}
+
+.signatures{
+    padding-top: 30px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+
+
+#place_portfolio_button,
+#place_footer_button,
+#place_service_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#place_service_button{
+    margin-top: 70px;
+}
+
+#portfolio_button,
+#footer_button,
+#service_button{
+    width: 213px;
+    height: 44px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+
+#footer_button{
+    margin-top:30px;
+    padding: 0;
+}
+
+.footer{
+    height: 583px;
+
+    background-color: #FFFFFF;
+}
+
+#contact_heading{
+    padding-top: 91px;
+    margin:0;
+    border: 0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color: #070707;
+}
+
+#welcome{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color:#070707;
+}
+
+.social_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.icons img{
+    padding:60px;
+}
+
+
+#social_network{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color:#828282;
+}
+
+#welcome,
+#place_footer_button,
+#social_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+}
+
